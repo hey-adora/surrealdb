@@ -1334,6 +1334,8 @@ impl_numeric! {
 		u32 => (is_u32, from_u32, into_u32, is_u32_and, as_u32),
 		u64 => (is_u64, from_u64, into_u64, is_u64_and, as_u64),
 		usize => (is_usize, from_usize, into_usize, is_usize_and, as_usize),
+		u128 => (is_u128, from_u128, into_u128, is_u128_and, as_u128),
+		i128 => (is_i128, from_i128, into_i128, is_i128_and, as_i128),
 }
 
 // Non-primary float types with conversion
