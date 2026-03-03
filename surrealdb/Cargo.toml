@@ -148,6 +148,7 @@ workspace = true
 [lib]
 name = "surrealdb" # Needed for the nightly crate as we will be renaming it
 bench = false
+crate-type = ["dylib"]
 
 [[bench]]
 name = "parser"
